@@ -1,6 +1,6 @@
 {
   "name": "axarva-palindrome",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A simple palindrome detector",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/Axarva/palindrome/issues"
   },
-  "homepage": "https://github.com/Axarva/palindrome#readme"
+  "homepage": "https://github.com/Axarva/palindrome#readme",
+  "dependencies": {}
 }
