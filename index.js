@@ -27,13 +27,13 @@ function Phrase(content){
     }
     this.palindrome = function palindrome() {
         if (this.processedContent() == ""){
-            return "Its empty."
+            return "It's empty."
         } else if (this.processedContent() == "0"){
             return "Please input a number other than 0."
         } else if (this.processedContent() === this.letter()){
-            return "This a palindrome."
+            return `"${this.content}" be palindrome.`
         }else {
-            return "This no palindrome, pleb."
+            return `"${this.content}" be no palindrome, pleb.`
         }
         }
 }
