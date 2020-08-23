@@ -6,7 +6,7 @@ String.prototype.reverse = function() {
 }
 
 function Phrase(content){
-    if (!(typeof content == 'string' || typeof content == 'number')) {
+    if (!(typeof content == 'string' || typeof content == 'number' || content)) {
         throw("Error: wrong sort of value");
     }
     this.content = content;
