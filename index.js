@@ -6,6 +6,9 @@ String.prototype.reverse = function() {
 }
 
 function Phrase(content){
+    if (!(typeof content == 'string' || typeof content == 'number')) {
+        throw("Error: wrong sort of value");
+    }
     this.content = content;
     this.String = String(this.content).toLowerCase();
     this.letter = function letter() {
